@@ -1,3 +1,6 @@
 
-.icon-desktop-1:before { content: '\e800'; } /* '' */
+.icon-attention:before { content: '\e800'; } /* '' */
+.icon-plug:before { content: '\e801'; } /* '' */
+.icon-question:before { content: '\e802'; } /* '' */
+.icon-desktop-1:before { content: '\e803'; } /* '' */
 .icon-desktop:before { content: '\f108'; } /* '' */

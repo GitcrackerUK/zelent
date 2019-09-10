@@ -7,6 +7,24 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "5c8a627c2e11bfc2854045872f6bd8f4",
+      "css": "plug",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "2a58da2238c31ffa3ff4dac966c2dc99",
+      "css": "attention",
+      "code": 59392,
+      "src": "typicons"
+    },
+    {
+      "uid": "23d1c53bc15ca452df9453450e94a19c",
+      "css": "question",
+      "code": 59394,
+      "src": "modernpics"
+    },
+    {
       "uid": "757afacc32d82967975cbb3b45cfb41b",
       "css": "desktop",
       "code": 61704,
@@ -15,7 +33,7 @@
     {
       "uid": "7697f1734d53461137f05faab3f79cf0",
       "css": "desktop-1",
-      "code": 59392,
+      "code": 59395,
       "src": "linecons"
     }
   ]

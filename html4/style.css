@@ -5,6 +5,7 @@ font-family: 'Open Sans', sans-serif;
 margin:0px;
 font-size:20px;
 }
+
 a:link
 {
 color:black;
@@ -15,6 +16,7 @@ a:visited
 color:black;
 text-decoration:none;
 }
+
 a:hover
 {
 color:#485b3b;
