@@ -31,7 +31,8 @@ padding:10px;
 }
 #nav /*spis */
 {
-width:880px;
+width:780px;
+padding-left:100px;
 }
 #content
 {
@@ -57,8 +58,28 @@ text-transform:none;
 font-weight:400;
 padding:0px;
 margin-top:5px;
+margin-left:30px;
+list-style-type:none;
 }
 ol>li>ul>li
 {
-padding:5px
+margin:opx;
+}
+
+ol>li>ul>li:before
+{
+color:#485b3b;
+margin-right:5px;
+}
+
+.slajd
+{
+padding:20px 40px;
+text-align:justify;
+}
+h1
+{
+font-size:24px;
+text-transform:uppercase;
+font-weight:700;
 }
