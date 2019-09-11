@@ -5,6 +5,42 @@
 	  <link rel="stylesheet" href="style.css" type="text/css" />
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 	  <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	  <script src="jquery.scrollTo.min.js"></script>
+	  <script>
+
+		  jQuery(function($)
+		  {
+		  	$.scrollTo(0)
+
+		  	$('#11').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#12').click(function() {$.scrollTo($('#zasd'),500); });
+		  	$('#13').click(function() {$.scrollTo($('#mask'),500); });
+		  	$('#14').click(function() {$.scrollTo($('#wadzal1'),500); });
+		  	$('#15').click(function() {$.scrollTo($('#dob'),500); });
+		  	$('#21').click(function() {$.scrollTo($('#budmon2'),500); });
+		  	$('#22').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#23').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#24').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#25').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#31').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#32').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#33').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#41').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('#42').click(function() {$.scrollTo($('#budmon'),500); });
+		  	$('.scroll').click(function() {$.scrollTo($('body'),1000); });
+
+		  }
+		  );
+
+		  ${window).scroll(function()
+		  {
+		  	if($(this).scrollTop()>300) $('.scroll').fadeIn();
+		  	else $('.scroll').fadeOut();
+		  }
+		  );
+
+	  </script>
   </head>
 
 
@@ -12,42 +48,43 @@
   <body>
   <div id="logo" > wykład #1: Monitory komputerowe </div>
   <div id="container">
+	  <a href="#" class="scroll"></a>
 	  <div id="nav"> <! spis >
 
 		  <ol>
 			  <li>
 				  Monitory kineskopowe CRT
 				  <ul>
-					  <li><a href="#budmon"><i class="icon-desktop-1"></i>Budowa monitora CRT</a></li>
-					  <li><a href="#zasd"><i class="icon-desktop-1"></i>Zasada działania</a></li>
-					  <li><a href="#mask"><i class="icon-desktop-1"></i>Maska, rodzaje masek</a></li>
-					  <li><a href="#wadyzal1"><i class="icon-desktop-1"></i>Wady i zalety</a></li>
-					  <li><a href="#dob"><i class="icon-desktop-1"></i>Dobór parametrow</a></li>
+					  <li><a id="11"href="#"><i class="icon-desktop-1"></i>Budowa monitora CRT</a></li>
+					  <li><a id="12"href="#"><i class="icon-desktop-1"></i>Zasada działania</a></li>
+					  <li><a id="13"href="#"><i class="icon-desktop-1"></i>Maska, rodzaje masek</a></li>
+					  <li><a id="14"href="#"><i class="icon-desktop-1"></i>Wady i zalety</a></li>
+					  <li><a id="15"href="#"><i class="icon-desktop-1"></i>Dobór parametrow</a></li>
 				  </ul>
 			  </li>
 			  <li>
 				  Monitory ciekłokrystaliczne LCD
 				  <ul>
-					  <li><a href="#budmon2"><i class="icon-desktop"></i>Budowa monitora</a></li>
-					  <li><a href="#zas"><i class="icon-desktop"></i>Zasada działania LCD</a></li>
-					  <li><a href="#podmat"><i class="icon-desktop"></i>Podział matryc</a></li>
-					  <li><a href="#wadyzal2"><i class="icon-desktop"></i>Wady i zalety</a></li>
-					  <li><a href="#dob2"><i class="icon-desktop"></i>Dobór parametrow</a></li>
+					  <li><a id="21"href="#"><i class="icon-desktop"></i>Budowa monitora</a></li>
+					  <li><a id="22"href="#"><i class="icon-desktop"></i>Zasada działania LCD</a></li>
+					  <li><a id="23"href="#"><i class="icon-desktop"></i>Podział matryc</a></li>
+					  <li><a id="24"href="#"><i class="icon-desktop"></i>Wady i zalety</a></li>
+					  <li><a id="25"href="#"><i class="icon-desktop"></i>Dobór parametrow</a></li>
 				  </ul>
 			  </li>
 			  <li>
 				  Sposoby podłaczenia monitorów.
 				  <ul>
-					  <li><a href="#dsub"><i class="icon-plug"></i>DSUB</a></li>
-					  <li><a href="#dvi"><i class="icon-plug"></i>DVI</a></li>
-					  <li><a href="#hdmi"><i class="icon-plug"></i>HDMI,Display Port</a></li>
+					  <li><a id="31"href="#"><i class="icon-plug"></i>DSUB</a></li>
+					  <li><a id="32"href="#"><i class="icon-plug"></i>DVI</a></li>
+					  <li><a id="33"href="#"><i class="icon-plug"></i>HDMI,Display Port</a></li>
 				  </ul>
 			  </li>
 			  <li>
 				  Dodatkowe informacje
 				  <ul>
-					  <li><a href="#przy"><i class="icon-question"></i>Przyszłość monitorów</a></li>
-					  <li><a href="#source"><i class="icon-attention"></i>Wykorzystane zródła</a></li>
+					  <li><a id="41"href="#"><i class="icon-question"></i>Przyszłość monitorów</a></li>
+					  <li><a id="42"href="#"><i class="icon-attention"></i>Wykorzystane zródła</a></li>
 				  </ul>
 			  </li>
 		  </ol>
@@ -164,7 +201,7 @@
 
 		<div class="slajd">
 
-			<h1 id="wadyzal1" >Wady i zalety monitorów CRT</h1>
+			<h1 id="wadzal1" >Wady i zalety monitorów CRT</h1>
 
 			Wybór rodzaju monitora zależy najbardziej od jego przeznaczenia. Monitory CRT zostały praktycznie całkowicie wyparte z rynku przez monitory ciekłokrystaliczne, niemniej jednak niektóre ich unikatowe właściwości sprawiają, iż nadal używają ich np. fotografowie.
 			<br /><br />

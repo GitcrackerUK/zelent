@@ -102,3 +102,15 @@ font-size:24px;
 text-transform:uppercase;
 font-weight:700;
 }
+
+.scroll
+{
+display:none;
+width:64px;
+height:64px;
+text-decoration:none;
+background:url("img/up.png") no-repeat 0px 0px;
+position:fixed;
+right:85px;
+bottom:70px;
+}
