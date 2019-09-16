@@ -171,7 +171,7 @@ min-width:300px;
 background-color:#196499;
 }
 
-socials
+.socials
 {
 	width:100%;
 	text-align: center;
@@ -199,6 +199,7 @@ socials
 
 .yt
 {
+text-align:center;
 	width: 250px;
 	height: 155px;
 	float:left;
@@ -231,4 +232,11 @@ socials
 .gplus:hover
 {
 	background-color: #d95333;
+}
+#foot
+{
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+padding:20px;
 }
