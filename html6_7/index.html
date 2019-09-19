@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title></title>
+	<meta name="description" content="Stwórz wymarzony model swojego samochodu!">
+	<meta name="keywords" content="samochód, katalog, salon, nowe auto">
+	<meta name="author" content="Jan Nowak">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 9]>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+
+<![endif]-->
+
+</head>
+<header>
+	<h1>Wybierz konfigurację samochodu</h1>
+</header>
+<main>
+	<article>
+		<form action="order.php" method="post">
+			<div class="row" >
+				<fieldset>
+					<legend>Rodzaje nadwozia</legend>
+					<div><label><input type="radio" value="1" name="nadwozie" checked > Hatchback </label></div>
+					<div><label><input type="radio" value="2" name="nadwozie"> Kabriloet </label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Kombi </label></div>
+				</fieldset>
+			</div>
+
+			<div class="row">
+				<label for="engine"> Rodzaj silnika</label>
+				<select id="engine">
+					<option value="w">wysokoprezny</option>
+					<option value="b" selected>benzynowy</option>
+					<option value="e">elektryk</option>
+					<option value="h">hybryda</option>
+				</select>
+			</div>
+
+			<div class="row">
+				<fieldset>
+
+					<legend>Wyposazenie samochodu</legend>
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="1" name="wyp[]" value="1" disabled checked> klimatyzacja </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="2" name="wyp[]" value="2" disabled checked> systemy: ESP i ABS </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="3" name="wyp[]" value="3" > tapicerka skórzana </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="4" name="wyp[]" value="4"> tempomat </label></div>
+					</div>
+
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="5" name="wyp[]" value="5"> tylny spojler dachowy </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="6" name="wyp[]" value="6"> radio z bluetooth </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="7" name="wyp[]" value="7"> reflektory przeciwmgłowe </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="8" name="wyp[]" value="8"> przyciemniane tylne szyby </label></div>
+					</div>
+
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="9" name="wyp[]" value="9"> czujniki parkowania </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="10" name="wyp[]" value="10"> podgrzewane fotele </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="11" name="wyp[]" value="11"> składane lusterka </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="12" name="wyp[]" value="12"> światła LED do jazdy dziennej </label></div>
+					</div>
+
+				</fieldset>
+			</div>
+			<div class="row">
+				<label for="choinka">Jakie choinki zapchowe?</label>
+				<div style="margin-top:10px;">
+					<select id="choinka" name="choinka[]" multiple size="6">
+						<option value="w">kokosowa</option>
+						<option value="b" selected>vanilia</option>
+						<option value="e">trusawkowa</option>
+						<option value="c">cytrusowa</option>
+						<option value="l">lesna</option>
+						<option value="a">arbuzowa</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<label> Imie <input type="text" name="imie"  placeholder="imie"></label>
+				<label> haslo <input type="password" name="haslo" placeholder="password"></label>
+				<label> szukaj <input type="search" name="fraza" placeholder="serch"></label>
+			</div>
+			<div class="row">
+				<label>Ile kluczykøw?<input type="number" step="4" name="kluczyk"></label>
+
+			</div>
+			<! html7 >
+			<div class="row">
+				<label>Adress email:<input type="email" required></label>
+			</div>
+
+
+			<div class="row">
+
+				<input type="submit" value="order">
+				<input type="button" value="order">
+				<button >submit</button>
+				<button class="button"> search</button>
+			</div>
+
+		</form>
+
+
+	</article>
+
+</main>
+
+<body>
+
+</body>
+</html>
+
