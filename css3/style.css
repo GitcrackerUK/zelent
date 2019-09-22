@@ -36,8 +36,21 @@ width:1000px;
 margin-left:auto;
 margin-right:auto;
 }
-
-
-#looo{
-
+.socials{
+  width: :100%;
+  text-align: center;
+  background-color: #292929;
+}
+.socialdivs{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fb{
+  width: 250px;
+  height: 155px;
+  float: left;
+}
+.fb:hover{
+  background-color: #3668b3;
 }
