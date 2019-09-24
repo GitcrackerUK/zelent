@@ -19,6 +19,7 @@ body{
 input[type=text],
 input[type=password]{
   width: 300px;
+  margin-top: 10px;
   background-color: #efefef;
   color: #666 ;
   border: 2px solid #ddd;
@@ -39,6 +40,7 @@ input[type=password]:focus{
 }
 input[type=submit]{
   width:300px;
+  margin-top: 20px;
   background-color: #36b03c;
   font-size: 20px;
   color: white;
