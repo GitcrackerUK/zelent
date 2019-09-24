@@ -1,3 +1,60 @@
 body{
+  /*This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
   background-image: url("/home/gitcracker/Downloads/hexellence/hexellence/hexellence.png");
+  font-size: 20px;
+  font-family: 'Be Vietnam', sans-serif;
+  }
+#container{
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  -webkit-box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+  -moz-box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+  box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+}
+input[type=text],
+input[type=password]{
+  width: 300px;
+  background-color: #efefef;
+  color: #666 ;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+  -webkit-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  -moz-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+input[type=submit]{
+  width:300px;
+  background-color: #36b03c;
+  font-size: 20px;
+  color: white;
+  padding: 15px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
+}
+input[type=submit]:hover{
+background-color: #37b93d;
+}
+input[type=submit]:focus{
+  -webkit-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  -moz-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
 }
