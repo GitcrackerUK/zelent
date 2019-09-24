@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
 <div class="wrapper">
 	<div class="header">
 		<div class="logo">
@@ -26,16 +27,47 @@
 			<span style="color:#c34f4f">retro</span>granie.com
 			<div style="clear:both;"></div>
 		</div>
+	</div>
 
-	</div>
 	<div class="nav">
-		<div class="menu">Strona głøwna</div>
-		<div class="menu">klasyki NES</div>
-		<div class="menu"> Gry filmowe</div>
-		<div class="menu">Bijatyki</div>
-		<div class="menu">Gry sportowe</div>
-		<div class="menu">O autorach</div>
+		<ol>
+			<li class="menu"><a href="#">Strona głøwna</a></li>
+			<li class="menu"><a href="#">klasyki NES</a>
+				<ul>
+					<li><a href="#">Contra</a></li>
+					<li><a href="#">Mario Bros</a></li>
+					<li><a href="#">Duck Tales</a></li>
+					<li><a href="#">Legend of Zelda</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#"> Gry filmowe</a>
+				<ul>
+					<li><a href="#">Hom alone</a></li>
+					<li><a href="#">Dick </a></li>
+					<li><a href="#">The simpsons</a></li>
+					<li><a href="#">Top gun</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">Bijatyki</a>
+				<ul>
+					<li><a href="#">Mortal kombat</a></li>
+					<li><a href="#">Nekketsu</a></li>
+					<li><a href="#">Doble dragon</a></li>
+					<li><a href="#">Turtles</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">Gry sportowe</a>
+				<ul>
+					<li><a href="#">Goal 3</a></li>
+					<li><a href="#">Excitebikes</a></li>
+					<li><a href="#">Ike Ike Hokey</a></li>
+					<li><a href="#">Tennis</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">O autorach</a></li>
+		</ol>
 	</div>
+
 	<div class="content">
 		<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -122,8 +154,32 @@
 		</div>
 	</div>
 
-	<div class="footer"></div>
+	<div class="footer">Retrogranie.com © 2015 Thank you for your visit Mario! But our Princess is in another castle ;-)</div>
 
 </div>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+
+	if (ScrollY > NavY) {
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky');
+	}
+	};
+
+	stickyNav();
+
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+
+</script>
 </body>
 </html>
