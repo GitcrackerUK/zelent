@@ -176,10 +176,10 @@ height: 278px;
 }
 	.photo6 img
 {
-	transition: all 0.6s ease-in-out;
+	transition: all 0.7s ease-in-out;
 }
 .photo6:hover img{
-	-webkit-ransform: scale(1.15) rotate(-5deg);
-	-ms-transform: scale(1.15) rotate(-5deg);
-	transform: scale(1.15) rotate(-5deg);
+	-webkit-ransform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
 }
