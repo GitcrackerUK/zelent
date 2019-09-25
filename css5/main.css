@@ -94,18 +94,92 @@ transform:scale(0.97) rotate(1deg);
 {
 	width: 450px;
 }
+.overlay{
+position: relative;
+width: 450px;
+height: 278px;
+}
+.overlay .link{
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 450px;
+	height: 40px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+.overlay:hover .link{
+	opacity:0.8;
+}
+
 
 .photo4
 {
 	width: 450px;
 }
 
-.photo5
-{
-	width: 450px;
+.overlayt{
+position: relative;
+width: 450px;
+height: 278px;
 }
+.overlayt .link{
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: #27a38d;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+.overlayt:hover .link{
+	opacity:0.9;
+}
+.icon{
+	display: block;
+	font-size: 72px;
+	position: relative;
+	top:25%;
+}
+.icon p {
+	font-size: 20px;
 
-.photo6
+}
+	.photo5
 {
 	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+	.photo5 img
+{
+	transition: all 0.6s ease-in-out;
+}
+.photo5:hover img{
+	-webkit-ransform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+	.photo6
+{
+	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+	.photo6 img
+{
+	transition: all 0.6s ease-in-out;
+}
+.photo6:hover img{
+	-webkit-ransform: scale(1.15) rotate(-5deg);
+	-ms-transform: scale(1.15) rotate(-5deg);
+	transform: scale(1.15) rotate(-5deg);
 }
