@@ -1,2 +1,2345 @@
+html1
+--------------------------------------------------------------------------
+<!doctype html>
+<html>
+  <head>
+    <title>zelent1</title>
+	  <style>
+		  #container
+		  {
+		  width:1000px;
+	       margin-left:auto;
+	       margin-right:auto;
+		  }
+
+		  #logo
+		  {
+		  background-color:black;
+		  color:white;
+		  text-align:center;
+		  padding:15px;
+		  }
+
+		  #nav
+		  {
+		  float:left;
+		  background-color:lightgrey;
+		  width:120px;
+		  min-height:580px;
+		  padding:10px;
+		  }
+
+		  #content
+		  {
+		  float:left;
+		  padding:20px;
+		  width:660px;
+		  }
+
+		  #pic
+		  {
+		  background-color:black;
+		  width:60px;
+		  high:60px;
+		  }
+
+		  #ad
+		  {
+		  float:left;
+		  width:160px;
+		  min-height:620px;
+		  padding:0px;
+		  }
+
+		  #footer
+		  {
+		  clear:both;
+		  }
+		</style>
+  </head>
+  <body>
+  <div id="container">
+
+	  <div id="logo">
+		  <h1>Nalepsze filmy - subiektywne TOP 5 !!</h1>
+	  </div>
+
+	  <div id="nav">
+		  Dr House <br/>
+		  True Detective <br/>
+		  Breaking Bad <br/>
+		  Big Bang Theory<br/>
+		  Z archiwum X <br/>
+	  </div>
+
+	  <div id="content">
+		  <h2>Dr House (ang. House; House, M.D.)</h2>
+
+		  <br><br/>
+
+		  <div id="pic">
+			  <a href=""></a>
+		  </div>
+		  <div id="pic">
+			  <a href=""></a>
+		  </div>
+		  <div id="pic">
+			  <a href=""></a>
+		  </div>
+	  </div>
+
+	  <div id="ad">
+		  <img src="msi-z97_gaming_9_ac-just_game-banner-160x600px.jpg"/>
+	  </div>
+
+	  <div id="footer">
+		  Najlepsze seriale - TOP 5 !! &copy; Wszystkie prawa zastrzezone.
+	  </div>
+
+  </div>
+  <div>
+
+  </div>
+  </body>
+</html>
+--------------------------------------------------------------------------
+html2 Tables
+--------------------------------------------------------------------------
+<!doctype html>
+<html lang="pl">
+  <head>
+	  <meta charset="utf-8"/>
+	  <title>TABELE</title>
+	  <style>
+		  h1{
+		  color:white;
+		  }
+		  h2{
+		  color:white;
+		  }
+	  </style>
+  </head>
+  <body>
+  <table width="1000" align="center">
+	  <tr>
+		  <td colspan="3" align="center" bgcolor="black" >
+			  <h1>Nalepsze filmy - subiektywne TOP 5 !!</h1>
+		  </td>
+	  </tr>
+	  <tr>
+		  <td width="140" valign="top" bgcolor="lightgray">
+			  Dr House <br/>
+			  True Detective <br/>
+			  Breaking Bad <br/>
+			  Big Bang Theory<br/>
+			  Z archiwum X <br/></td>
+		  <td width="680" valign="top">
+			     <h3>Dr House (ang. House; House, M.D.)</h3>
+
+		  		<br><br/>
+
+		  </td>
+		  <td width="180" valign="top" bgcolor="lightgrey" align="center">
+			  <img src="msi-z97_gaming_9_ac-just_game-banner-160x600px.jpg"/>
+		  </td>
+	  </tr>
+	  <tr>
+		  <td colspan="3" align="center" bgcolor="black">
+			  <h2>Najlepsze seriale - TOP 5 !! &copy; Wszystkie prawa zastrzezone.<h2>
+
+			  </h2></td>
+	  </tr>
+  </table>
+
+  </body>
+</html>
+
+
+--------------------------------------------------------------------------
+html3
+--------------------------------------------------------------------------
+<!doctype html>
+<html>
+  <head>
+	  <title>Pawel Siwek</title>
+	  <link rel="stylesheet" href="style3.css" type="text/css" />
+	  <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&display=swap" rel="stylesheet">
+	  <script src="timer.js"></script>
+
+  </head>
+  <body onload="odliczanie();">
+  <div id="container">
+	  <div class="rectangle">
+		  <div id="logo"><a href="index.html" class="linksocial">Pawel Siwek</a></div>
+		  <div id="zegar">18.00</div>
+		  <div style="clear:both;"></div>
+	  </div>
+
+	  <div class="square">
+		  <a href="about.html" class="tilelink"><div class="tile1"><i class="icon-user"></i><br/>About Me</div></a>
+		  <a href="tech.html" class="tilelink"><div class="tile1"><i class="icon-laptop"></i><br/>Tech stack</div></a>
+		  <div style="clear:both;"></div>
+
+		  <a href="education.html" class="tilelink"><div class="tile2"><i class="icon-graduation-cap"></i><br/>Education</div></a>
+		  <a href="contact.html" class="tilelink"><div class="tile3"><i class="icon-mail"></i><br/>Contact</div></a>
+		  <div style="clear:both;"></div>
+
+		  <div class="tile4">
+			  <i>"Talk is cheap. Show me the code!!"</i><br/>
+			     Linus Torvalds
+		  </div>
+	  </div>
+
+	  <div class="square">
+		  <div class="tile5">
+			  <p>Hello</p>
+			  I'm self thought programmer from Reading, South-West of UK. Programming became from
+			  hobby my passion. Every spare time I try to code. Coding is like having super power and I love it.
+			  If you need somebody reliable to build your website and help you grow business or help you with side web project don't hesitate to
+			  contact me, I'm always happy to help.
+
+
+		  </div>
+		  <a href="http://youtube.com" class="linksocial" target="_blank"><div class="yt"><i class="icon-youtube"></i></div></a>
+		  <a href="http://github.com" class="linksocial" target="_blank"><div class="git"><i class="icon-github-circled"></i></div></a>
+		  <a href="https://stackoverflow.com" class="linksocial" target="_blank"><div class="stack"><i class="icon-stackoverflow"></i></div></a>
+		  <a href="https://linkedin.com" class="linksocial" target="_blank"><div class="twt"><i class="icon-linkedin"></i></div></a>
+		  <div style="clear:both;"></div>
+	  </div>
+	  <div style="clear:bot"></div>
+	  <div  class="rectangle">2019 &copy; Pawel Siwek - Portfolio. Web developer <i class="icon-mail-alt"></i> pfsiwek@gmail.com</div>
+  </div>
+
+  </body>
+</html>
+css--------------------------------------------------------------------------
+body
+{
+/* Background pattern is downloaded from www.subtlepatterns.com */
+background-image: url("spiration dark.png");
+color:#ffffff;
+font-family: 'Lato', sans-serif;
+font-size:20px;
+}
+#container
+{
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+.rectangle
+{
+width:960px;
+margin:15px;
+}
+#logo
+{
+float:left;
+font-family: 'Josefin Sans', sans-serif;
+font-size:70px;
+width:600px;
+margin-top:10px;
+margin-bottom:10px;
+}
+#zegar
+{
+float:left;
+font-family: 'Josefin Sans', sans-serif;
+font-size:70px;
+margin-top:10px;
+margin-bottom:10px;
+
+}
+.square
+{
+width:50%;
+float:left;
+}
+.tile1{
+border-radius:3px;
+float:left;
+margin:10px;
+width:230px;
+height:142px;
+background-color:#3095d3;
+text-align:center;
+}
+.tile1:hover
+{
+background-color:#2084d2}
+.tile2
+{
+border-radius:3px;
+float:left;
+margin:10px;
+width:230px;
+height:142px;
+background-color:#666666;
+text-align:center;
+}
+.tile2:hover
+{
+background-color:#555555
+}
+.tile3
+{
+border-radius:3px;
+float:left;
+margin:10px;
+width:230px;
+height:142px;
+background-color:#93c748;
+text-align:center;
+}
+.tile3:hover
+{
+background-color:#82b637;
+}
+.tile4
+{
+border-radius:3px;
+margin:10px;
+width:420px;
+height:82px;
+background-color:#ee5a32;
+text-align:center;
+font-size:24px;
+padding:35px 30px 25px 30px;
+}
+.tile5
+{
+text-align:center;
+padding:10px;
+border-radius:3px;
+margin:10px;
+width:460px;
+height:288px;
+background-color:#666666;
+}
+.techskills
+{
+float:left;
+text-align:left;
+margin-left:20px;
+}
+.yt
+{
+border-radius:3px;
+float:left;
+margin:10px;
+width:105px;
+height:142px;
+background-color:#d94348;
+}
+.yt:hover
+{
+background-color:#c83237;
+}
+.git
+{
+border-radius:3px;
+float:left;
+margin:10px;
+width:105px;
+height:142px;
+background-color:#222;
+}
+.git:hover
+{
+background-color:#333;
+}
+
+.stack
+{
+float:left;
+margin:10px;
+width:105px;
+height:142px;
+border-radius:3px;
+background-color:#f48024;
+}
+.stack:hover
+{
+background-color:#e37013;
+}
+.twt
+{border-radius:3px;
+float:left;
+margin:10px;
+width:105px;
+height:142px;
+background-color:#3095d3;
+}
+.twt:hover
+{
+background-color:#2084c2;
+}
+
+a:link
+{
+color: #ffffff;
+text-decoration:none;
+}
+
+a.linksocial{
+color: #ffffff;
+text-decoration:none;
+}
+a.tilelink{
+color: #ffffff;
+text-decoration:none;
+}
+--------------------------------------------------------------------------
+html4
+--------------------------------------------------------------------------
 <!DOCTYPE html>
-<! CHEETSHEET >
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Philosophia Blog</title>
+	<meta name="description" content="Blog na temat ciekawych publikacji z dziedziny filozofii. Omówienie wybranych tekstów najsłynniejszych autorów!">
+	<meta name="keywords" content="filozofia, książki, blog, przemyślenia">
+	<meta name="author" content="Mortinez Walles">
+
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+<header>
+	<h1 class="logo">Philosophia Blog</h1>
+	<nav id="topnav">
+		<ul class="menu">
+			<li><a href="index.html">Strona główna</a></li>
+			<li><a href="#">Pierwszy raz tutaj?</a></li>
+			<li><a href="#">Dlaczego filozofia?</a></li>
+			<li><a href="#">O autorze</a></li>
+			<li><a href="#">Kontakt</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<article>
+		<section>
+			<div class="categories">
+				<header>
+					<h1> Witaj w świecie filozofi!</h1>
+					<p> Czy jesteś fanem filozofi? Lubisz świat idei ? Ciekawiaą Cię sposoby interpretowania świata przez ludzi?
+					Jeśli tak, to zapraszam do przygotowanego przeze mnie artykułów inspirowanych publikacji znanych filozofów.
+					</p>
+				</header>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/alan-watts.jpg" alt="Alan Watts"></a>
+						<figcaption>Alan Watts</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="wpis.html"><img src="img/de-mello.jpg" alt="Anthony de Mello"></a>
+						<figcaption>Anthony de Mello</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/nietzsche.jpg" alt="Friedrich Nietzsche"></a>
+						<figcaption>Friedrich Nietzsche</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/platon.jpg" alt="Platon"></a>
+						<figcaption>Platon</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/kant.jpg" alt="Immanuel Kant"></a>
+						<figcaption>Immanuel Kant</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/emerson.jpg" alt="Ralph Waldo Emerson"></a>
+						<figcaption>Ralph Waldo Emerson</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section id="newest">
+			<div class="entries">
+				<header>
+					<h1>Najnowsze wpisy</h1>
+					<p> Poniżej znajdziesz trzy ostatnio opublikowane artykuły
+						- dzięki temu łatwo można sprawdzić, czy na
+						blogu pojawiło się coś nowego. Wpisy zazwyczaj
+						pojawiają się we wtorki i
+						piątki, o nowościach informuję także na swoim Twitterze.</p>
+				</header>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/de-mello.jpg" alt="Anthony de Mello">
+					</div>
+					<div class="entrytext">
+						<h2>Anthony de Mello:Poszukiwanie akceptacji. </h2>
+						<p>Ktoś kiedyś pięknie to ujął: życie to coś, co przydarza się nam
+							podczas gdy jesteśmy zajęci układaniem planów. Jesteśmy zajęci
+							imponowaniem wszystkim wokół, dbaniem o to, by na pewno zostać
+							dobrze odebranym. Porozmawiajmy o nałogu poszukiwania akceptacji!</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/nietzsche.jpg" alt="Fryderyk Nietzsche">
+					</div>
+					<div class="entrytext">
+						<h2>Fryderyk Nietzsche: Zgładzić smoka</h2>
+						<p>Wielbłąd to zwierzę, na które ludzie nakładają wiele brzemion,
+							w tym ciężar braku własnej autonomii. Wielbłąd (jak to wielbłąd)
+							udaje się z całym tym ciężarem na pustynię. Czym jest na pustynia?
+							To miejsce
+							gdzie jesteś sam, gdzie nie słychać tych wszystkich "powinieneś".</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/alan-watts.jpg" alt="Alan Watts">
+					</div>
+					<div class="entrytext">
+						<h2>Alan Watts: Potrzeba kontroli </h2>
+						<p>Zastanawiam się, co byś zrobił, gdybyś miał moc
+							śnić w nocy jakikolwiek wybrany przez siebie sen.
+							I oczywiście miałbyś moc wpływania na swoje odczuwanie
+							czasu we śnie. Mógłbyś przeżyć np.
+							75 lat subiektywnego czasu w ramach ośmiogodzinnego snu.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="contact">
+				<header>
+					<h1>Kontakt z autorem</h1>
+					<p>Jeśli masz ochotę podyskutować,
+						zaproponować temat wpisu lub nawiązać współpracę reklamową
+						- zapraszam do kontaktu mailowego, proszę jednak o wyrozumiałość
+						co do czasu udzielenia przeze mnie odpowiedzi.</p>
+				</header>
+				<a href="#" class="bluebutton">Nawiązanie współpracy</a>
+			</div>
+		</section>
+	</article>
+</main>
+
+
+<footer>
+	<div class="socials">
+		<div class="socialdivs">
+			<div class="fb">
+				<i class="icon-facebook"></i>
+			</div>
+			<div class="yt">
+				<i class="icon-youtube"></i>
+			</div>
+			<div class="tw">
+				<i class="icon-twitter"></i>
+			</div>
+			<div class="gplus">
+				<i class="icon-gplus"></i>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+	<div id="foot"> Wszelkie prawa zastrzeżone © 2017 Dziękuję za wizytę!</div>
+
+</footer>
+</body>
+</html>
+css--------------------------------------------------------------------------
+body
+{
+background-image: url("email-pattern.png");
+font-family: 'Open Sans', sans-serif;
+margin:0px;
+font-size:20px;
+}
+
+a:link
+{
+color:black;
+text-decoration:none;
+}
+a:visited
+{
+color:black;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#485b3b;
+text-decoration:underline;
+}
+
+
+#logo
+{
+width:100%;
+height: 50px;
+background-color:#465b3b;
+color:white;
+font-size:36px;
+text-align:center;
+text-transform:uppercase;
+padding:5px 0px 5px 0px;
+letter-spacing:3px;
+border-bottom:2px solid #33402a;
+}
+#container
+{
+border-left:1px solid #ccc ;
+border-right:1px solid #ccc ;
+margin-left:auto;
+margin-right:auto;
+background-color:white;
+width:880px;
+padding:10px;
+
+}
+#nav /*spis */
+{
+width:780px;
+padding-left:100px;
+}
+#content
+{
+}
+
+
+ol
+{
+margin-top:5px;
+}
+ol > li
+{
+font-size:22px;
+text-transform:uppercase;
+font-weight:700;
+padding:5px;
+letter-spacing:3px;
+}
+ol>li>ul
+{
+font-size:18px;
+text-transform:none;
+font-weight:400;
+padding:0px;
+margin-top:5px;
+margin-left:30px;
+list-style-type:none;
+}
+ol>li>ul>li
+{
+margin:opx;
+}
+
+ol>li>ul>li:before
+{
+color:#485b3b;
+margin-right:5px;
+}
+
+.slajd
+{
+padding:20px 40px;
+text-align:justify;
+}
+h1
+{
+font-size:24px;
+text-transform:uppercase;
+font-weight:700;
+}
+
+.scroll
+{
+display:none;
+width:64px;
+height:64px;
+text-decoration:none;
+background:url("img/up.png") no-repeat 0px 0px;
+position:fixed;
+right:85px;
+bottom:70px;
+}
+--------------------------------------------------------------------------
+html5
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Philosophia Blog</title>
+	<meta name="description" content="Blog na temat ciekawych publikacji z dziedziny filozofii. Omówienie wybranych tekstów najsłynniejszych autorów!">
+	<meta name="keywords" content="filozofia, książki, blog, przemyślenia">
+	<meta name="author" content="Mortinez Walles">
+
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+<header>
+	<h1 class="logo">Philosophia Blog</h1>
+	<nav id="topnav">
+		<ul class="menu">
+			<li><a href="index.html">Strona główna</a></li>
+			<li><a href="#">Pierwszy raz tutaj?</a></li>
+			<li><a href="#">Dlaczego filozofia?</a></li>
+			<li><a href="#">O autorze</a></li>
+			<li><a href="#">Kontakt</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<article>
+		<section>
+			<div class="categories">
+				<header>
+					<h1> Witaj w świecie filozofi!</h1>
+					<p> Czy jesteś fanem filozofi? Lubisz świat idei ? Ciekawiaą Cię sposoby interpretowania świata przez ludzi?
+					Jeśli tak, to zapraszam do przygotowanego przeze mnie artykułów inspirowanych publikacji znanych filozofów.
+					</p>
+				</header>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/alan-watts.jpg" alt="Alan Watts"></a>
+						<figcaption>Alan Watts</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="wpis.html"><img src="img/de-mello.jpg" alt="Anthony de Mello"></a>
+						<figcaption>Anthony de Mello</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/nietzsche.jpg" alt="Friedrich Nietzsche"></a>
+						<figcaption>Friedrich Nietzsche</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/platon.jpg" alt="Platon"></a>
+						<figcaption>Platon</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/kant.jpg" alt="Immanuel Kant"></a>
+						<figcaption>Immanuel Kant</figcaption>
+					</figure>
+				</div>
+				<div class="author">
+					<figure>
+						<a href="#"><img src="img/emerson.jpg" alt="Ralph Waldo Emerson"></a>
+						<figcaption>Ralph Waldo Emerson</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<section id="newest">
+			<div class="entries">
+				<header>
+					<h1>Najnowsze wpisy</h1>
+					<p> Poniżej znajdziesz trzy ostatnio opublikowane artykuły
+						- dzięki temu łatwo można sprawdzić, czy na
+						blogu pojawiło się coś nowego. Wpisy zazwyczaj
+						pojawiają się we wtorki i
+						piątki, o nowościach informuję także na swoim Twitterze.</p>
+				</header>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/de-mello.jpg" alt="Anthony de Mello">
+					</div>
+					<div class="entrytext">
+						<h2>Anthony de Mello:Poszukiwanie akceptacji. </h2>
+						<p>Ktoś kiedyś pięknie to ujął: życie to coś, co przydarza się nam
+							podczas gdy jesteśmy zajęci układaniem planów. Jesteśmy zajęci
+							imponowaniem wszystkim wokół, dbaniem o to, by na pewno zostać
+							dobrze odebranym. Porozmawiajmy o nałogu poszukiwania akceptacji!</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/nietzsche.jpg" alt="Fryderyk Nietzsche">
+					</div>
+					<div class="entrytext">
+						<h2>Fryderyk Nietzsche: Zgładzić smoka</h2>
+						<p>Wielbłąd to zwierzę, na które ludzie nakładają wiele brzemion,
+							w tym ciężar braku własnej autonomii. Wielbłąd (jak to wielbłąd)
+							udaje się z całym tym ciężarem na pustynię. Czym jest na pustynia?
+							To miejsce
+							gdzie jesteś sam, gdzie nie słychać tych wszystkich "powinieneś".</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="entryimg">
+						<img src="img/alan-watts.jpg" alt="Alan Watts">
+					</div>
+					<div class="entrytext">
+						<h2>Alan Watts: Potrzeba kontroli </h2>
+						<p>Zastanawiam się, co byś zrobił, gdybyś miał moc
+							śnić w nocy jakikolwiek wybrany przez siebie sen.
+							I oczywiście miałbyś moc wpływania na swoje odczuwanie
+							czasu we śnie. Mógłbyś przeżyć np.
+							75 lat subiektywnego czasu w ramach ośmiogodzinnego snu.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="contact">
+				<header>
+					<h1>Kontakt z autorem</h1>
+					<p>Jeśli masz ochotę podyskutować,
+						zaproponować temat wpisu lub nawiązać współpracę reklamową
+						- zapraszam do kontaktu mailowego, proszę jednak o wyrozumiałość
+						co do czasu udzielenia przeze mnie odpowiedzi.</p>
+				</header>
+				<a href="#" class="bluebutton">Nawiązanie współpracy</a>
+			</div>
+		</section>
+	</article>
+</main>
+
+
+<footer>
+	<div class="socials">
+		<div class="socialdivs">
+			<div class="fb">
+				<i class="icon-facebook"></i>
+			</div>
+			<div class="yt">
+				<i class="icon-youtube"></i>
+			</div>
+			<div class="tw">
+				<i class="icon-twitter"></i>
+			</div>
+			<div class="gplus">
+				<i class="icon-gplus"></i>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+	</div>
+	<div id="foot"> Wszelkie prawa zastrzeżone © 2017 Dziękuję za wizytę!</div>
+
+</footer>
+</body>
+</html>
+css--------------------------------------------------------------------------
+body
+{
+margin: 0;
+background-color: #2F3336;
+color: #efefef;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+}
+
+
+h1.logo
+{
+font-size:44px;
+font-weight:700;
+color:#ddd;
+text-align: center;
+text-transform:uppercase;
+letter-spacing:5px;
+margin-top:40px;
+margin-bottom: 40px;
+}
+#topnav
+{
+background-color:#1c74b2;
+text-align:center;
+}
+.menu
+{
+list-style-type:none;
+margin:0px;
+padding:10px;
+font-size:18px
+min-height:38px;
+line-height:200%;
+}
+.menu > li
+{
+display:inline-block;
+padding-left:20px;
+padding-right:20px;
+border-right: 1px dashed #0a2b42;
+}
+.menu > li:first-child
+{
+border-left: 1px dashed #0a2b42;
+}
+
+.menu a
+{
+color:#fff;
+text-decoration:none;
+}
+.menu a:hover
+{
+color:#0a2b42;
+}
+.categories
+{
+margin-left:auto;
+margin-right:auto;
+width:950px;
+text-align:center;
+padding:0px;
+}
+h1
+{
+font-size:44px;
+font-weight:400;
+color:#39a5f1;
+margin-bottom:20px;
+}
+.author
+{
+display: inline-block;
+margin-top:10px;
+}
+
+.author a
+{
+opacity:0.9;
+}
+.author a:hover
+{
+opacity:1;
+}
+
+
+figure
+{
+margin:9px;
+padding 0;
+}
+figcaption
+{
+margin-top:8px;
+padding:0;
+
+}
+.entries
+{
+margin-left:auto;
+margin-right:auto;
+width:950px;
+text-align:center;
+padding-top:10px;
+padding-bottom:80px;
+margin-top:40px;
+}
+
+#newest
+{
+background-color:#191d21;
+}
+.entry
+{
+background-color:#222930;
+padding:10px;
+text-align:justify;
+margin-top:40px;
+border-radius:5px;
+}
+.entryimg
+{
+width:110px;
+display:inline-block;
+margin-left:30px;
+}
+.entryimg img
+{
+width:90px;
+height:90px;
+}
+.entrytext
+{
+font-size:15px;
+display:inline-block;
+width:750px;
+}
+h2
+{
+font-size:20px;
+font-weight:400;
+color:#39a5f1;
+}
+.contact
+{
+margin-left:auto;
+margin-right:auto;
+width:950px;
+text-align:center;
+padding-bottom:70px;
+margin-bottom:50px;
+}
+.contact p
+{
+margin-bottom:50px;
+}
+
+.bluebutton
+{
+background-color:#1c74b2;
+padding:15px;
+color:#efefef;
+font-size:19px;
+text-decoration:none;
+border-radius:5px;
+min-width:300px;
+}
+.bluebutton:hover
+{
+background-color:#196499;
+}
+
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #292929;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+text-align:center;
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+#foot
+{
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+padding:20px;
+}
+.container
+{
+margin-left:auto;
+margin-right:auto;
+width:1004px;
+}
+.west {
+float:left;
+width:750px;
+padding:20px;
+text-align:justify;
+
+}
+.east
+{
+float:left;
+width:170px;
+padding:20px;
+}
+
+.west h1
+{
+font-size:32px;
+font-weight:400;
+color:#39a5f1;
+margin-bottom:20px;
+}
+.east ul
+{
+padding-left:20px;
+}
+.east ul>li
+{
+margin-bottom:5px;
+}
+.east img
+{
+margin-top:15px;
+}
+--------------------------------------------------------------------------
+html6_7
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title></title>
+	<meta name="description" content="Stwórz wymarzony model swojego samochodu!">
+	<meta name="keywords" content="samochód, katalog, salon, nowe auto">
+	<meta name="author" content="Jan Nowak">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 9]>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+
+<![endif]-->
+
+</head>
+<header>
+	<h1>Wybierz konfigurację samochodu</h1>
+</header>
+<main>
+	<article>
+		<form action="order.php" method="post">
+			<div class="row" >
+				<fieldset>
+					<legend>Rodzaje nadwozia</legend>
+					<div><label><input type="radio" value="1" name="nadwozie" checked > Hatchback </label></div>
+					<div><label><input type="radio" value="2" name="nadwozie"> Kabriloet </label></div>
+					<div><label><input type="radio" value="3" name="nadwozie"> Kombi </label></div>
+				</fieldset>
+			</div>
+
+			<div class="row">
+				<label for="engine"> Rodzaj silnika</label>
+				<select id="engine">
+					<option value="w">wysokoprezny</option>
+					<option value="b" selected>benzynowy</option>
+					<option value="e">elektryk</option>
+					<option value="h">hybryda</option>
+				</select>
+			</div>
+
+			<div class="row">
+				<fieldset>
+
+					<legend>Wyposazenie samochodu</legend>
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="1" name="wyp[]" value="1" disabled checked> klimatyzacja </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="2" name="wyp[]" value="2" disabled checked> systemy: ESP i ABS </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="3" name="wyp[]" value="3" > tapicerka skórzana </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="4" name="wyp[]" value="4"> tempomat </label></div>
+					</div>
+
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="5" name="wyp[]" value="5"> tylny spojler dachowy </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="6" name="wyp[]" value="6"> radio z bluetooth </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="7" name="wyp[]" value="7"> reflektory przeciwmgłowe </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="8" name="wyp[]" value="8"> przyciemniane tylne szyby </label></div>
+					</div>
+
+					<div class="col">
+						<div><label><input type="checkbox" name="equp[]" value="9" name="wyp[]" value="9"> czujniki parkowania </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="10" name="wyp[]" value="10"> podgrzewane fotele </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="11" name="wyp[]" value="11"> składane lusterka </label></div>
+						<div><label><input type="checkbox" name="equp[]" value="12" name="wyp[]" value="12"> światła LED do jazdy dziennej </label></div>
+					</div>
+
+				</fieldset>
+			</div>
+			<div class="row">
+				<label for="choinka">Jakie choinki zapchowe?</label>
+				<div style="margin-top:10px;">
+					<select id="choinka" name="choinka[]" multiple size="6">
+						<option value="w">kokosowa</option>
+						<option value="b" selected>vanilia</option>
+						<option value="e">trusawkowa</option>
+						<option value="c">cytrusowa</option>
+						<option value="l">lesna</option>
+						<option value="a">arbuzowa</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<label> Imie <input type="text" name="imie"  placeholder="imie"></label>
+				<label> haslo <input type="password" name="haslo" placeholder="password"></label>
+				<label> szukaj <input type="search" name="fraza" placeholder="serch"></label>
+			</div>
+			<div class="row">
+				<label>Ile kluczykøw?<input type="number" step="4" name="kluczyk"></label>
+
+			</div>
+			<! html7 >
+			<div class="row">
+				<label>Adress email:<input type="email" required></label>
+			</div>
+
+
+			<div class="row">
+
+				<input type="submit" value="order">
+				<input type="button" value="order">
+				<button >submit</button>
+				<button class="button"> search</button>
+			</div>
+
+			<div class="teldat">
+				<div class="rowd">
+					<label>Numer telefonu<input type="tel" name="telefon"></label>
+				</div>
+				<div class="rowd">
+					<label>dzien<input type="date" name="date"></label>
+				</div>
+			</div>
+
+		</form>
+
+
+	</article>
+
+</main>
+
+<body>
+
+</body>
+</html>
+css--------------------------------------------------------------------------
+body
+{
+	margin: 0;
+	padding: 0px 60px;
+	background-color: #29201B;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+
+}
+
+h1
+{
+	font-size: 42px;
+	font-weight: 400;
+	color: #FA7C00;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.row
+{
+margin:20px 40px;
+}
+.col
+{
+display:inline-block;
+margin
+}
+.button
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  margin:5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  input[type=color]
+  {
+  border:1px solid white;
+  height:200px;
+  border-radius:5px;
+  border-color:green;
+  width:200px;
+  }
+
+a:link, a:visited{
+text-decoration:none;
+color:white;
+
+}
+legend{
+color:green;
+border-color:green;
+}
+
+.teldat
+{
+width:700px;
+margin-left:auto;
+margin-right:auto;
+}
+.rowd
+{
+margin:10px;
+}
+--------------------------------------------------------------------------
+CSS
+--------------------------------------------------------------------------
+
+css1
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title></title>
+	<meta name="description" content="Stwórz wymarzony model swojego samochodu!">
+	<meta name="keywords" content="samochód, katalog, salon, nowe auto">
+	<meta name="author" content="Jan Nowak">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 9]>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+
+<![endif]-->
+	<style>
+		body{
+		}
+
+
+	</style>
+</head>
+<header>
+	<h1>Wybierz konfigurację samochodu</h1>
+</header>
+<main>
+	<article style="color:grey; font-size:20px">
+
+		<form action="" method="post">
+			<div style="color:yellow;"><label>To jest in-line css test</label><input type="text"></div>
+
+
+		</form>
+	</article>
+
+</main>
+
+--------------------------------------------------------------------------
+css2
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Poznaj linuxa</title>
+	<meta name="description" content="Service about Linux os">
+	<meta name="keywords" content="linu,os">
+	<meta name="author" content="Jan Nowak">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<!--[if lt IE 9]>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="container">
+	<div id="logo">
+		Poznaj Linuxa :)
+	</div>
+
+	<div id="menu">
+		<div class="align">
+			<div class="option">Strona głowna </div>
+			<div class="option">Dystrybucje </div>
+			<div class="option">Instalacja</div>
+			<div class="option">Polecenia</div>
+			<div class="option">Linus Torvalds</div>
+			<div class="option">O projekcie</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	<div id="topbar">
+		<div id="topbarleft"><img src="linux.png"></div>
+		<div id="topbarright">
+			<span class="bigtitle">O projekcie słow kilka</span>
+			<div style="height:15px;"></div>
+		Kiedy mowisz: "napisałem program ktøry wywalił windows, ludzie patrza sie na ciebie
+		głupkowato i mowia: Hej , ja dostałem to wraz zsystemem, za darmo"-Linus Torvalds</div>
+		<div style="clear:both;"></div>
+	</div>
+		<div id="sidebar">
+			<div class="optionL">Strona głowna </div>
+			<div class="optionL">Dystrybucje </div>
+			<div class="optionL">Instalacja</div>
+			<div class="optionL">Polecenia</div>
+			<div class="optionL">Linus Torvalds</div>
+			<div class="optionL">O projekcie</div>
+		</div>
+		<div id="content">
+			<span class="bigtitle">Dlaczego Linux?</span>
+				<div class="dottedline"></div>
+
+		</div>
+		<div style="clear:both;"></div>
+	<div id="footer">
+		Poznaj Linuxa - najlepszy darmowy system operacyjny. Strona w sieci od 2014r. &copy; Wszelkie prawa zastrzeżone
+	</div>
+</div>
+
+
+</body>
+</html>
+css--------------------------------------------------------------------------
+body {
+
+background-color:#404040;
+font-family: 'Lato', sans-serif;
+}
+
+#container{
+border-radius: 5px;
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#logo{
+
+color:white;
+margin-top:20px;
+font-size:44px;
+letter-spacing:3px;
+font-weight:900;
+}
+
+#menu{
+
+text-align:center;
+border-radius: 5px;
+background-color:#303030;
+margin-top:20px;
+color:#ffffff;
+padding:10px;
+}
+
+.align{
+margin-left:auto;
+margin-right:auto;
+width:700px;
+}
+
+.option{
+float:left;
+min-width:50px;
+height:25px;
+font-size:18px;
+padding:10px;
+border-right:2px dotted #444444;
+opacity:0.8;
+}
+.option:first-child{
+border-left:2px dotted #444444;
+}
+.option:hover{
+background-color:#000000;
+cursor:pointer;
+}
+.optionL{
+font-size:18px;
+height:25px;
+padding:10px;
+border-bottom:2px dotted #444444;
+}
+.optionL:hover{
+background-color:#f36742;
+cursor:pointer;
+color:white;
+}
+
+#topbar{
+border-radius: 5px;
+background-color:#128870;
+color:white;
+padding:10px;
+margin-top:20px;
+margin-bottom:25px;
+}
+
+#topbarleft{
+float:left;
+padding:20px;
+width:138px;
+text-align:center;
+border-right:2px dotted #cccccc;
+}
+
+#topbarright
+{
+padding:20px;
+float:left;
+width:760px;
+font-size:16px;
+text-align:justify;
+}
+
+#sidebar{
+border-radius:5px;
+border-radius-right:0px;
+float:left;
+width:148px;
+min-height:660px;
+padding:20px;
+background-color:lightgray;
+text-align:center;
+font-size:18px;
+border-right:2px dotted #666666;
+}
+
+
+#content{
+border-radius-left:0px;
+border-radius:5px;
+float:left;
+padding:40px;
+width:730px;
+background-color:#dedede;
+min-height:580px;
+text-align:justify;
+}
+
+
+.bigtitle{
+font-size:32px;
+font-weight:900;
+letter-spacing:2px;
+}
+.dottedline{
+height:5px;
+margin-top:15px;
+margin-bottom:20px;
+border-bottom:2px dotted #444444;
+}
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+--------------------------------------------------------------------------
+css3
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title></title>
+	<meta content="Serwis o starych grach pochodzacych z Nintendo Enterprise System"
+		  name="description">
+	<meta name="author" content="Pawel Siwek">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext"
+		  rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<meta content="IE=edge,chrome=1"
+		  http-equiv="X-Ua-Compatible">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext"
+		  rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="logo">
+			<img src="pad.png" style="float:left;">
+			<span style="color:#c34f4f">retro</span>granie.com
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+
+	<div class="nav">
+		<ol>
+			<li class="menu"><a href="#">Strona głøwna</a></li>
+			<li class="menu"><a href="#">klasyki NES</a>
+				<ul>
+					<li><a href="#">Contra</a></li>
+					<li><a href="#">Mario Bros</a></li>
+					<li><a href="#">Duck Tales</a></li>
+					<li><a href="#">Legend of Zelda</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#"> Gry filmowe</a>
+				<ul>
+					<li><a href="#">Hom alone</a></li>
+					<li><a href="#">Dick </a></li>
+					<li><a href="#">The simpsons</a></li>
+					<li><a href="#">Top gun</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">Bijatyki</a>
+				<ul>
+					<li><a href="#">Mortal kombat</a></li>
+					<li><a href="#">Nekketsu</a></li>
+					<li><a href="#">Doble dragon</a></li>
+					<li><a href="#">Turtles</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">Gry sportowe</a>
+				<ul>
+					<li><a href="#">Goal 3</a></li>
+					<li><a href="#">Excitebikes</a></li>
+					<li><a href="#">Ike Ike Hokey</a></li>
+					<li><a href="#">Tennis</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">O autorach</a></li>
+		</ol>
+	</div>
+
+	<div class="content">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing
+		elit. Aliquam tellus arcu, bibendum at arcu ut,
+		pellentesque luctus nibh. Proin at consequat diam,
+		quis porttitor sapien. Sed venenatis luctus odio in
+		maximus. Pellentesque ut dui sit amet turpis
+		placerat pharetra. Praesent justo felis, lacinia ac
+		lectus sed, porta rutrum leo. Suspendisse eu est
+		varius, varius sapien non, sollicitudin elit. Nullam
+		non pellentesque quam. Nulla pretium feugiat
+		feugiat.
+		</p>
+		<p>
+		Vivamus congue elit enim, a consequat dolor placerat
+		at. Phasellus quis pulvinar velit. Suspendisse
+		fringilla justo odio, sit amet condimentum nunc
+		laoreet eget. Nulla cursus ex nec lorem ultrices, a
+		congue nibh volutpat. Ut egestas feugiat ipsum,
+		pretium sollicitudin libero pharetra eget. Vivamus
+		dignissim scelerisque urna nec vehicula. Etiam magna
+		velit, porttitor quis volutpat non, consectetur sit
+		amet ligula. Vivamus posuere est odio, eget
+		malesuada justo efficitur varius. Nunc est mauris,
+		mollis nec tortor a, aliquam ornare lectus. Etiam
+		dapibus risus leo, a facilisis dui pharetra id.
+		Nulla viverra, libero ac consectetur scelerisque,
+		erat erat consequat odio, ut pulvinar felis urna
+		quis elit. Nullam nunc lectus, vehicula et consequat
+		vel, tempor at elit.
+		</p>
+		<p>
+		Fusce sapien turpis, condimentum eget turpis a,
+		iaculis bibendum elit. Vivamus facilisis et ipsum et
+		vestibulum. Etiam sollicitudin erat gravida eleifend
+		dignissim. Quisque dictum sed orci non dapibus.
+		Pellentesque accumsan dui sed tristique scelerisque.
+		Mauris sit amet mauris nulla. Maecenas consectetur
+		ullamcorper risus, non laoreet sem bibendum at.
+		Morbi rhoncus dui lacinia tortor gravida porta. Nam
+		non urna eu erat suscipit cursus. Phasellus
+		porttitor vulputate tempus. Cras augue magna,
+		ultrices vehicula turpis a, lacinia ornare est.
+		Fusce sem purus, pulvinar id mauris et, venenatis
+		malesuada nisi.
+	  </p>
+		<p>
+		Suspendisse potenti. Vestibulum lacus arcu,
+		sollicitudin sit amet posuere at, eleifend sed odio.
+		Integer blandit erat quis risus pulvinar, id tempus
+		sem iaculis. Sed blandit nibh quis massa commodo,
+		eget ornare erat condimentum. Etiam porttitor congue
+		sem sit amet tristique. Etiam aliquam lorem et mi
+		maximus, a venenatis purus mollis. Nulla vulputate
+		consectetur maximus. Quisque venenatis semper leo,
+		sit amet facilisis nisl dapibus eu. Vivamus faucibus
+		non erat non ultrices.</p>
+		<p>
+		Vestibulum ante ipsum primis in faucibus orci luctus
+		et ultrices posuere cubilia Curae; Donec hendrerit
+		sed dolor finibus porttitor. Mauris ac lorem
+		porttitor, tincidunt tortor a, facilisis nunc.
+		Praesent quis massa id massa congue tincidunt.
+		Nullam id suscipit felis. Donec lacinia quis neque
+		sed bibendum. Maecenas consequat convallis nulla vel
+		fermentum. Nam ac mattis mauris. Curabitur vitae
+		ullamcorper diam, in pretium leo. Aenean urna
+		turpis, feugiat in enim lacinia, pellentesque
+		scelerisque lacus. Aenean odio urna, aliquet at
+		euismod vel, varius a nulla. Maecenas mollis
+		ultrices orci, id mattis sapien dignissim sed. Nam
+		convallis est nec tincidunt faucibus. Morbi pulvinar
+		semper sollicitudin. Aenean at velit elit.
+		<p>
+	</div>
+
+	<div class="socials">
+		<div class="socialdivs">
+			<div class="yt"><a href="https://youtube.com"><i class="icon-youtube"></i></a></div>
+			<div class="fb"><a href="https://facebook.com"><i class="icon-facebook-squared"></i></a></div>
+			<div class="tw"><a href="https://twitter.com"><i class="icon-twitter"></i></a></div>
+			<div class="gplus"><a href="https://gplus.com"><i class="icon-gplus"></i></a></div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+
+	<div class="footer">Retrogranie.com © 2015 Thank you for your visit Mario! But our Princess is in another castle ;-)</div>
+
+</div>
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+
+	if (ScrollY > NavY) {
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky');
+	}
+	};
+
+	stickyNav();
+
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+
+</script>
+</body>
+</html>
+
+css--------------------------------------------------------------------------
+body {
+margin:0px !important;
+font-family: 'Lato', sans-serif;
+font-size:20px;
+background-color:#303030;
+color:#ffffff
+}
+.wraper{
+width:100%
+}
+.header{
+width:100%;
+padding:40px 0;
+}
+.logo{
+text-align:center;
+width:450px;
+font-size:48px;
+margin-left:auto;
+margin-right:auto;
+}
+.nav
+{
+  width:100%;
+  padding:0px 0px;
+  background-color:#c34f4f;
+  text-align:center;
+  height: 40px;
+  border-top:1px solid #751b1b;
+  border-bottom:1px solid #751b1b;
+}
+ol{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top:2px;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 200%;
+  display: inline-block;
+}
+
+ol>li{
+  height: 35px;
+  width: 150px;
+  float: left;
+  border-right: 1px dashed #751b1b;
+}
+ol>li:first-child{
+  border-left: 1px dashed #751b1b;
+}
+
+ol a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.content{
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 10px;
+}
+.socials{
+  width: :100%;
+  text-align: center;
+  background-color: #292929;
+}
+.socialdivs{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fb{
+  width: 250px;
+  height: 155px;
+  float: left;
+}
+.fb:hover{
+  background-color: #3668b3;
+}
+.yt{
+  width: 250px;
+  height: 155px;
+  float: left;
+}
+.yt:hover{
+  background-color: #d94348;
+}
+.tw{
+  width: 250px;
+  height: 155px;
+  float: left;
+}
+.tw:hover{
+  background-color: #3095d3;
+}
+.gplus{
+  width: 250px;
+  height: 155px;
+  float: left;
+}
+.gplus:hover{
+  background-color: #d95333;
+}
+ol a{
+  text-decoration: none;
+}
+
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  background: #222222;
+  padding: 30px;
+}
+.sticky{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top:0;
+  z-index:100;
+}
+ol>li:hover{
+  background-color: #cf6969;
+}
+ol>li>a:hover{
+  color: #451717;
+}
+ol>li>ul{
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+}
+ol>li:hover>ul{
+  display: block;
+}
+ol>li>ul>li{
+  background-color: #cf6969;
+  position: relative;
+  z-index: 100;
+  border-top: 1px dashed #751b1b;
+}
+ol>li>ul>li:hover{
+  background: #c34f4f;
+}
+ol>li>ul>li>a:hover{
+  color: #451717;
+}
+--------------------------------------------------------------------------
+css4
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+  <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,600&display=swap&subset=latin-ext" rel="stylesheet">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3
+	html5shiv.min.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <form >
+      <input type="text" name="login" placeholder="Login" onfocus="this.placeholder=''" onblur="this.placeholder='Login'">
+
+      <input type="password" name="password" placeholder="Haslo"
+			onfocus="this.placeholder=''" onblur="this.placeholder='Haslo'">
+      <input type="submit" name="" value="Zaloguj sie">
+    </form>
+  </div>
+</body>
+</html>
+
+css--------------------------------------------------------------------------
+body{
+  /*This pattern is downloaded from www.subtlepatterns.com If you need more, that's where to get'em.*/
+  background-image: url("/home/gitcracker/Downloads/hexellence/hexellence/hexellence.png");
+  font-size: 20px;
+  font-family: 'Be Vietnam', sans-serif;
+  }
+#container{
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  -webkit-box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+  -moz-box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+  box-shadow: 6px 12px 32px 10px rgba(204,204,204,1);
+}
+input[type=text],
+input[type=password]{
+  width: 300px;
+  margin-top: 10px;
+  background-color: #efefef;
+  color: #666 ;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+  -webkit-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  -moz-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  border: 2px solid #a5cda5;
+  background-color: #e9f3e9;
+  color: #428c42;
+}
+input[type=submit]{
+  width:300px;
+  margin-top: 20px;
+  background-color: #36b03c;
+  font-size: 20px;
+  color: white;
+  padding: 15px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
+}
+input[type=submit]:hover{
+background-color: #37b93d;
+}
+input[type=submit]:focus{
+  -webkit-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  -moz-box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+  box-shadow: 14px 8px 21px -4px rgba(204,204,204,1);
+}
+
+--------------------------------------------------------------------------
+css5
+--------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Galeria zdjęć</title>
+	<meta name="description" content="Piękne miejsca na Ziemi">
+	<meta name="keywords" content="Taktsang, Paro, Bhutan, Arashiyama, Kyoto, Japonia, Bryce Canyon, Utah, USA, Taj Mahal, Agra, Indie, Serengeti, Tanzania, Mu Cang Chai, Yen Bai, Wietnam">
+	<meta name="author" content="MZ">
+
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="stylesheet" href="main.css">
+
+	<link rel="stylesheet" href="css/fontello.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<main>
+
+		<article>
+
+			<div class="container">
+
+				<header>
+					<h1>Piękne miejsca na Ziemi</h1>
+				</header>
+
+				<div class="postcard">
+
+					<div class="photo1">
+						<a href="#"><img src="img/01.jpg" alt="Taktsang"></a>
+					</div>
+					<p>Klasztor Taktsang - dolina Paro, Bhutan</p>
+
+				</div>
+
+				<div class="postcard">
+
+					<div class="photo2">
+						<a href="#"><img src="img/02.jpg" alt="Arashiyama"></a>
+					</div>
+					<p>Las bambusowy Arashiyama - Kyoto, Japonia</p>
+
+				</div>
+
+				<div class="postcard">
+					<div class="photo3">
+						<div class="overlay">
+							<a href="#"><img src="img/03.jpg" alt="Bryce Canyon"></a>
+							<a href="#" class="link"><p> Rok 	zalorzenia 1928,powierzchnia 	145km<sup>2</sup></a>
+						</div>
+					</div>
+					<p>Park Narodowy Bryce Canyon - Utah, USA</p>
+
+				</div>
+
+				<div class="postcard">
+
+					<div class="photo4">
+						<div class="overlayt">
+
+							<a href="#"><img src="img/04.jpg" alt="Taj Mahal"></a>
+							<a href="#" class="link"><span class="icon"><i class="icon-search"></i><p>Zobacz album</p></span></a>
+						</div>
+					</div>
+					<p>Mauzoleum Taj Mahal - Agra, Indie</p>
+
+				</div>
+
+
+				<div class="postcard">
+
+					<div class="photo5">
+						<a href="#"><img src="img/05.jpg" alt="Serengeti"></a>
+					</div>
+					<p>Park Narodowy Serengeti, Tanzania</p>
+
+				</div>
+
+				<div class="postcard">
+
+					<div class="photo6">
+						<a href="#"><img src="img/06.jpg" alt="Mu Cang Chai"></a>
+					</div>
+					<p>Dystrykt Mu Cang Chai - Yen Bai, Wietnam</p>
+				</div>
+
+			</div>
+
+		</article>
+
+	</main>
+
+</body>
+</html>
+
+css--------------------------------------------------------------------------
+body
+{
+	background-color: #191d21;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #efefef;
+}
+
+a:link
+{
+    color: #fff;
+	text-decoration: none;
+}
+
+a:visited
+{
+    color: #fff;
+}
+
+a:hover
+{
+    color: #fff;
+}
+
+a:active
+{
+	color: #fff;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+.postcard
+{
+	display: inline-block;
+	width: 460px;
+	text-align: center;
+	padding: 5px;
+}
+
+.postcard p
+{
+	padding: 5px;
+	margin-top: 10px;
+}
+
+h1
+{
+	font-size: 32px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-top: 45px;
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+/* Hover effects */
+
+.photo1
+{
+	width: 450px;
+	transition: all 0.4s ease-in-out;
+}
+.photo1:hover
+{
+	-webkit-transform:scale(0.97);
+	-ms-transform:scale(0.97);
+	transform:scale(0.97);
+	opacity: 0.1;
+}
+
+.photo2
+{
+	width: 450px;
+	transition: all 0.2s cubic-bezier(0, 0, 0.57, 0.23);
+}
+
+.photo2:hover
+{
+-webkit-ransform:scale(0.97) rotate(1deg);
+-ms-transform:scale(0.97) rotate(1deg);
+transform:scale(0.97) rotate(1deg);
+}
+
+.photo3
+{
+	width: 450px;
+}
+.overlay{
+position: relative;
+width: 450px;
+height: 278px;
+}
+.overlay .link{
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 450px;
+	height: 40px;
+	background-color: #111;
+	left: 0px;
+	bottom: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+
+.overlay:hover .link{
+	opacity:0.8;
+}
+
+
+.photo4
+{
+	width: 450px;
+}
+
+.overlayt{
+position: relative;
+width: 450px;
+height: 278px;
+}
+.overlayt .link{
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background-color: #27a38d;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+.overlayt:hover .link{
+	opacity:0.9;
+}
+.icon{
+	display: block;
+	font-size: 72px;
+	position: relative;
+	top:25%;
+}
+.icon p {
+	font-size: 20px;
+
+}
+	.photo5
+{
+	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+	.photo5 img
+{
+	transition: all 0.6s ease-in-out;
+}
+.photo5:hover img{
+	-webkit-ransform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+	.photo6
+{
+	width: 450px;
+	height: 278px;
+	overflow: hidden;
+}
+	.photo6 img
+{
+	transition: all 0.7s ease-in-out;
+}
+.photo6:hover img{
+	-webkit-ransform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
+}
+--------------------------------------------------------------------------
