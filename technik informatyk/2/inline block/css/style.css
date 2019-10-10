@@ -65,14 +65,14 @@ ul>li:first-child{
   margin: 0px;
   padding: 0px;
   width: 1000px;
-
+  vertical-align:top;
 }
 
 .left{
 
   /*border:1px solid white;*/
   margin-right: 5px;
-  
+  margin-top: -50px;
   border-radius: 5px;
   background-color: #663300;
   display: inline-block;
@@ -95,25 +95,6 @@ ul>li:first-child{
 .right > p {
   padding-top:0px;
 
-}
-.centerbox{
-  display: flex;
-  padding-top:5px;
-  width: 100%;
-  justify-content: center;
-}
-
-.box{
-  border-radius: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
-  display: inline-block;
-  background-color: #ace600;
-  width: 150px;
-  height: 150px;
-}
-.box:hover{
-  background-color: #bfff00;
 }
 
 .footer{
