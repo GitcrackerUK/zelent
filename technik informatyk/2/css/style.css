@@ -1,0 +1,99 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  background-image: url("../img/dot-grid.png");
+  color: grey;
+}
+.container{
+  padding: 5px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  margin: 0px;
+  height: 200px;
+}
+.logo{
+  height:100px;
+  font-size: 30px;
+  text-transform:capitalize;
+  color: white;
+  border-radius: 3px;
+  background-color: grey;
+  text-align: center;
+}
+p{
+  padding: 25px;
+}
+.menu{
+  text-transform: uppercase;
+  height: 50%;
+  text-align: center;
+  width: 1000px;
+}
+ul {
+  padding-top: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 30px;
+  margin: 0px;
+  list-style-type: none;
+}
+ul > li {
+  -webkit-box-shadow: 5px 7px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 7px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 7px 10px 0px rgba(0,0,0,0.75);
+  padding-bottom: 5px;
+  margin: 5px;
+  width: 130px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+  float: left;
+}
+ul>li:first-child{
+
+
+}
+
+.cont{
+  margin: 0px;
+  padding: 0px;
+  width: 1000px;
+  height: 525px;
+}
+
+.left{
+  margin-right: 5px;
+  /*border:1px solid white;*/
+  border-radius: 5px;
+  background-color: #01FF70;
+  float: left;
+  width: 195px;
+  text-align: center;
+}
+.right{
+  border-radius: 5px;
+  background-color: #39CCCC;
+  text-align: center;
+  float: left;
+  width: 800px;
+  height: 100%;
+}
+.right > h3 {
+  text-transform: capitalize;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+.right > p {
+  padding-top:0px;
+
+}
+.footer{
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+}
