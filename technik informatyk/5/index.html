@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Zadanie JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+        <h1>Proste działania</h1>
+        <label for="a">Podaj pierwsza liczbe:</label>
+        <input type="number" id="a" >
+        <br><br>
+        <label for="b">Podaj druga liczbe:</label>
+        <input type="number" id="b" >
+        <br><br>
+        <input type="button" value="DODAWANIE" onclick="suma()">
+        <input type="button" value="ODEJMOWANIE">
+        <input type="button" value="MNOZENIE">
+        <input type="button" value="DZIELENIE">
+
+        <script type="text/javascript">
+          function suma()
+          {
+            var a = document.getElementById("a").value;
+            //alert(a);
+            console.log(a);
+          }
+
+        </script>
+
+
+
+    </div>
+
+  </body>
+</html>
