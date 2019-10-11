@@ -14,3 +14,26 @@ img{
   height: 50px;
   width: 50px;
 }
+.sz{
+  display: block;
+  color: red;
+}
+span{
+  color: green;
+}
+.test{
+
+}
+label{
+  color: blue;
+}
+#first{
+  color: pink;
+}
+label{
+  color: blue;
+}
+#pass{
+  display: block;
+  color: black;
+}
