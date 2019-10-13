@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Zadanie JavaScript</title>
+    <title>Zadanie JavaScript z switchem</title>
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -17,17 +17,17 @@
         <label for="b">Podaj druga liczbe:</label>
         <input type="number" id="b" >
         <br><br>
-        <input type="button" value="DODAWANIE" onclick="suma()">
-        <input type="button" value="ODEJMOWANIE" onclick="devide()">
-        <input type="button" value="MNOZENIE" onclick="mul()">
-        <input type="button" value="DZIELENIE" onclick="divid()">
+        <input type="button" value="DODAWANIE" onclick="oblicz(1)">
+        <input type="button" value="ODEJMOWANIE" onclick="oblicz(2)">
+        <input type="button" value="MNOZENIE" onclick="oblicz(3)">
+        <input type="button" value="DZIELENIE" onclick="oblicz(4)">
         <div id="summary">
 
         </div>
 
         <script >
 
-          function suma()
+          function oblicz(dzialanie)
           {
             var a = document.getElementById("a").value;
             var b = document.getElementById("b").value;
@@ -39,71 +39,33 @@
             {
               a= parseFloat(a);
               b= parseFloat(b);
-              var suma = a + b;
-              document.getElementById("summary").innerHTML = "wynik działania wynosi: " + suma ;
+
+              switch (dzialanie)
+              {
+                case 1:
+                    document.getElementById("summary").innerHTML = "wynik działania wynosi: " + (a+b);
+                break;
+
+                case 2:
+                    document.getElementById("summary").innerHTML = "wynik działania wynosi: " + (a-b);
+                break;
+
+                case 3:
+                    document.getElementById("summary").innerHTML = "wynik działania wynosi: " + (a*b);
+                break;
+
+                case 4:
+                    if ( b==0 )
+                    {
+                      document.getElementById("summary").innerHTML = "Nie wolno dzielic przez zero!!";
+                    }
+                    else {
+                      document.getElementById("summary").innerHTML = "wynik działania wynosi: " + (a/b);
+                    }
+                break;
+              }
             }
           }
-
-
-          function devide()
-            {
-              var a = document.getElementById("a").value;
-              var b = document.getElementById("b").value;
-
-              if ( a == "" || b == "")
-              {
-                document.getElementById("summary").innerHTML = "prosze uzupełnic obie liczby!!";
-              }else
-              {
-                a= parseFloat(a);
-                b= parseFloat(b);
-                var ded = a - b;
-                document.getElementById("summary").innerHTML = "wynik działania wynosi: " + ded ;
-              }
-            }
-
-
-          function mul()
-            {
-              var a = document.getElementById("a").value;
-              var b = document.getElementById("b").value;
-
-              if ( a == "" || b == "")
-              {
-                document.getElementById("summary").innerHTML = "prosze uzupełnic obie liczby!!";
-              }else
-              {
-                a= parseFloat(a);
-                b= parseFloat(b);
-                var mul = a * b;
-                document.getElementById("summary").innerHTML = "wynik działania wynosi: " + mul ;
-              }
-            }
-
-            function divid()
-              {
-                var a = document.getElementById("a").value;
-                var b = document.getElementById("b").value;
-
-                if ( a == "" || b == "")
-                {
-                  document.getElementById("summary").innerHTML = "prosze uzupełnic obie liczby!!";
-                }else
-                {
-                  a= parseFloat(a);
-                  b= parseFloat(b);
-                  if ( b==0 )
-                  {
-                    document.getElementById("summary").innerHTML = "Nie wolno dzielic przez zero!!";
-                  }
-                  else {
-                    var divid = a / b;
-                    document.getElementById("summary").innerHTML = "wynik działania wynosi: " + divid ;
-                  }
-
-                }
-              }
-
 
         </script>
 
