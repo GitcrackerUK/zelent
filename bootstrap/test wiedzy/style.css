@@ -1,0 +1,29 @@
+body{
+  background-color: grey;
+
+}
+.greenbox{
+  text-align: center;
+  padding: 0px;
+}
+h1{
+  text-transform: capitalize;
+  color: white;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 5px;
+
+}
+
+.greenbox img {
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+}
+button{
+  display: inline-block;
+  margin: 5px;
+}
