@@ -16,25 +16,17 @@ h1
 
 .jumpers
 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1100px;
+
 	text-align: center;
 	padding: 0;
 }
-
-.jumper
-{
-	display: inline-block;
-	width: 32%;
-}
-
-.jumper img
-{
+.jumpers img{
 	width: 100%;
+	height: auto;
 }
-
-.jumper figure
-{
-	margin: 10px;
+.jumpers p {
+	margin-bottom: 30px;
+}
+.jumpers figcaption {
+	margin-top: 8px;
 }
